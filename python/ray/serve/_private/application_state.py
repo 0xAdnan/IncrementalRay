@@ -58,7 +58,7 @@ from ray.serve.schema import (
     LoggingConfig,
     ServeApplicationSchema,
 )
-from ray.types import ObjectRef
+from IncrementalRay.python.ray.types import ObjectRef
 
 logger = logging.getLogger(SERVE_LOGGER_NAME)
 

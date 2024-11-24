@@ -124,6 +124,7 @@ _common_options = {
     "memory": _resource_option("memory"),
     "name": Option((str, type(None))),
     "num_cpus": _resource_option("num_cpus"),
+    "incremental": Option((bool,), default_value=False),
     "num_gpus": _resource_option("num_gpus"),
     "object_store_memory": _counting_option("object_store_memory", False),
     # TODO(suquark): "placement_group", "placement_group_bundle_index"
@@ -166,6 +167,7 @@ _task_only_options = {
     ),
     # override "_common_options"
     "num_cpus": _resource_option("num_cpus", default_value=1),
+    "incremental": Option((bool,), default_value=False),
     "num_returns": Option(
         (int, str, type(None)),
         lambda x: None

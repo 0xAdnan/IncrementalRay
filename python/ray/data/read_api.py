@@ -82,7 +82,7 @@ from ray.data.datasource.file_meta_provider import (
 )
 from ray.data.datasource.parquet_meta_provider import ParquetMetadataProvider
 from ray.data.datasource.partitioning import Partitioning
-from ray.types import ObjectRef
+from IncrementalRay.python.ray.types import ObjectRef
 from ray.util.annotations import DeveloperAPI, PublicAPI
 from ray.util.scheduling_strategies import NodeAffinitySchedulingStrategy
 

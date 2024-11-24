@@ -3,7 +3,7 @@ from dataclasses import dataclass
 from typing import Any, List
 
 from ray.data.block import Block, DataBatch
-from ray.types import ObjectRef
+from IncrementalRay.python.ray.types import ObjectRef
 
 
 @dataclass

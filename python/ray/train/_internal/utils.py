@@ -24,7 +24,7 @@ from ray.air._internal.util import (
     find_free_port,
 )
 from ray.exceptions import RayActorError
-from ray.types import ObjectRef
+from IncrementalRay.python.ray.types import ObjectRef
 
 T = TypeVar("T")
 

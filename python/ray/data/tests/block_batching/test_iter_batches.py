@@ -16,7 +16,7 @@ from ray.data._internal.block_batching.iter_batches import (
 )
 from ray.data._internal.execution.interfaces.ref_bundle import RefBundle
 from ray.data.block import Block, BlockMetadata
-from ray.types import ObjectRef
+from IncrementalRay.python.ray.types import ObjectRef
 
 
 def ref_bundle_generator(num_rows: int, num_blocks: int) -> Iterator[RefBundle]:

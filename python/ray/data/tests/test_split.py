@@ -34,7 +34,7 @@ from ray.data.dataset import Dataset
 from ray.data.tests.conftest import *  # noqa
 from ray.data.tests.util import extract_values
 from ray.tests.conftest import *  # noqa
-from ray.types import ObjectRef
+from IncrementalRay.python.ray.types import ObjectRef
 
 
 @ray.remote

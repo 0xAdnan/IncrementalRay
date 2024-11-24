@@ -119,7 +119,10 @@ class RemoteFunction:
         self._runtime_env = parse_runtime_env(self._runtime_env)
         if "runtime_env" in self._default_options:
             self._default_options["runtime_env"] = self._runtime_env
-
+        self._incremental = self._default_options.get("incremental", False)
+        if self._incremental:
+            from ray.workflow.workflow_storage import get_workflow_storage
+            self._workflow_storage = get_workflow_storage(workflow_id="incremental_workflow")
         self._language = language
         self._is_generator = inspect.isgeneratorfunction(function)
         self._function = function
@@ -465,7 +468,115 @@ class RemoteFunction:
         if self._decorator is not None:
             invocation = self._decorator(invocation)
 
-        return invocation(args, kwargs)
+        if self._incremental:
+            cache_key = self._generate_cache_key(args, kwargs)
+            cached_result = self._get_cached_result(cache_key)
+            if cached_result:
+                return cached_result
+
+        result = invocation(args, kwargs)
+
+        if self._incremental:
+            self._cache_result(cache_key, result)
+
+        return result
+    
+    def _generate_cache_key(self, args, kwargs):
+        import hashlib
+        import pickle
+        import inspect
+        import ray
+        import numpy as np
+
+        X_ref, Y_ref, bleft, bup, bsize = args[:5]
+        
+        X = ray.get(X_ref)
+        Y = ray.get(Y_ref)
+        
+        start_x = bleft * bsize
+        end_x = min(start_x + bsize, len(X))
+        start_y = bup * bsize
+        end_y = min(start_y + bsize, len(Y))
+
+        Lleft, Lup, Ldiag = args[5:8] if len(args) > 5 else (None, None, None)
+        
+        try:
+            input_data = (
+                X[start_x:end_x],  
+                Y[start_y:end_y],  
+                bleft,
+                bup,
+                bsize
+            )
+            input_hash = hashlib.sha256(pickle.dumps(input_data)).hexdigest()
+
+            dependency_data = []
+            
+            if Lleft is not None:
+                Lleft_val = ray.get(Lleft) if isinstance(Lleft, ray._raylet.ObjectRef) else Lleft
+                dependency_data.append(('left', pickle.dumps(
+                    [row[-1] for row in Lleft_val] if Lleft_val else None
+                )))
+                
+            if Lup is not None:
+                Lup_val = ray.get(Lup) if isinstance(Lup, ray._raylet.ObjectRef) else Lup
+                dependency_data.append(('up', pickle.dumps(
+                    Lup_val[-1] if Lup_val else None
+                )))
+                
+            if Ldiag is not None:
+                Ldiag_val = ray.get(Ldiag) if isinstance(Ldiag, ray._raylet.ObjectRef) else Ldiag
+                dependency_data.append(('diag', pickle.dumps(
+                    Ldiag_val[-1][-1] if Ldiag_val else None
+                )))
+
+            deps_hash = hashlib.sha256(pickle.dumps(tuple(dependency_data))).hexdigest()
+            
+            cache_key = f"{input_hash[:16]}_{deps_hash[:16]}"
+            
+            print(f"[CACHE KEY] Generated for block ({bleft},{bup}): {cache_key}")
+            print(f"  - Input hash: {input_hash[:8]} (based on block content)")
+            print(f"  - Deps hash: {deps_hash[:8]} (based on dependencies)")
+            
+            return cache_key
+            
+        except Exception as e:
+            print(f"[CACHE KEY ERROR] Failed to generate key for block ({bleft},{bup}): {e}")
+            fallback_data = (bleft, bup, bsize, X[start_x:end_x], Y[start_y:end_y])
+            return hashlib.sha256(pickle.dumps(fallback_data)).hexdigest()
+
+    def _get_cached_result(self, cache_key):
+        try:
+            if not hasattr(self, '_workflow_storage'):
+                self._workflow_storage = get_workflow_storage(workflow_id="incremental_workflow")
+            
+            serialized_output = self._workflow_storage.load_task_output(cache_key)
+            if serialized_output:
+                print(f"[CACHE HIT] Found cached result for key: {cache_key[:8]}...")  
+                import pickle
+                output = pickle.loads(serialized_output)
+                import ray
+                return ray.put(output)
+            else:
+                print(f"[CACHE MISS] No cached result found for key: {cache_key[:8]}...")
+                return None
+        except Exception as e:
+            print(f"[CACHE ERROR] Failed to get cached result: {e}")
+            return None
+
+    def _cache_result(self, cache_key, result):
+        try:
+            if not hasattr(self, '_workflow_storage'):
+                self._workflow_storage = get_workflow_storage(workflow_id="incremental_workflow")
+                
+            import ray
+            output = ray.get(result)
+            import pickle
+            serialized_output = pickle.dumps(output)
+            self._workflow_storage.save_task_output(cache_key, serialized_output, exception=None)
+            print(f"[CACHE SAVE] Successfully cached result for key: {cache_key[:8]}...")
+        except Exception as e:
+            print(f"[CACHE ERROR] Failed to cache result: {e}")
 
     @DeveloperAPI
     def bind(self, *args, **kwargs):

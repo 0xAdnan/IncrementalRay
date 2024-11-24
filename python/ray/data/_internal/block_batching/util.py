@@ -13,7 +13,7 @@ from ray.data._internal.block_batching.interfaces import (
 )
 from ray.data._internal.stats import DatasetStats
 from ray.data.block import Block, BlockAccessor, DataBatch
-from ray.types import ObjectRef
+from IncrementalRay.python.ray.types import ObjectRef
 from ray.util.scheduling_strategies import NodeAffinitySchedulingStrategy
 
 logger = logging.getLogger(__name__)

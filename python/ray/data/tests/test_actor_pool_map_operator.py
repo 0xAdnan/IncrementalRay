@@ -13,7 +13,7 @@ from ray.data._internal.compute import ActorPoolStrategy
 from ray.data._internal.execution.operators.actor_pool_map_operator import _ActorPool
 from ray.data._internal.execution.util import make_ref_bundles
 from ray.tests.conftest import *  # noqa
-from ray.types import ObjectRef
+from IncrementalRay.python.ray.types import ObjectRef
 
 
 @ray.remote

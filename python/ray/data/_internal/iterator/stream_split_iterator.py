@@ -14,7 +14,7 @@ from ray.data._internal.stats import DatasetStats
 from ray.data._internal.util import create_dataset_tag
 from ray.data.block import Block, BlockMetadata
 from ray.data.iterator import DataIterator
-from ray.types import ObjectRef
+from IncrementalRay.python.ray.types import ObjectRef
 from ray.util.debug import log_once
 from ray.util.scheduling_strategies import NodeAffinitySchedulingStrategy
 

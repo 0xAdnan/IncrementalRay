@@ -14,7 +14,7 @@ from ray.data._internal.execution.interfaces.ref_bundle import (
 from ray.data._internal.remote_fn import cached_remote_fn
 from ray.data.block import BlockAccessor
 from ray.data.context import DataContext
-from ray.types import ObjectRef
+from IncrementalRay.python.ray.types import ObjectRef
 from ray.util.annotations import PublicAPI
 
 try:

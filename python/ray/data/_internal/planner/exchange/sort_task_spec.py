@@ -7,7 +7,7 @@ from ray.data._internal.planner.exchange.interfaces import ExchangeTaskSpec
 from ray.data._internal.progress_bar import ProgressBar
 from ray.data._internal.remote_fn import cached_remote_fn
 from ray.data.block import Block, BlockAccessor, BlockExecStats, BlockMetadata
-from ray.types import ObjectRef
+from IncrementalRay.python.ray.types import ObjectRef
 
 T = TypeVar("T")
 

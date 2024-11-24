@@ -24,7 +24,7 @@ import ray
 from ray import DynamicObjectRefGenerator
 from ray.air.util.tensor_extensions.arrow import ArrowConversionError
 from ray.data._internal.util import _check_pyarrow_version, _truncated_repr
-from ray.types import ObjectRef
+from IncrementalRay.python.ray.types import ObjectRef
 from ray.util.annotations import DeveloperAPI
 
 import psutil

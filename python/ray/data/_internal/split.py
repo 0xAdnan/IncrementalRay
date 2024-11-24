@@ -12,7 +12,7 @@ from ray.data.block import (
     BlockMetadata,
     BlockPartition,
 )
-from ray.types import ObjectRef
+from IncrementalRay.python.ray.types import ObjectRef
 
 logger = logging.getLogger(__name__)
 

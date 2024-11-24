@@ -12,7 +12,7 @@ from ray.data.extensions import ArrowTensorArray, ArrowTensorType, TensorDtype
 from ray.data.tests.conftest import *  # noqa
 from ray.data.tests.mock_http_server import *  # noqa
 from ray.tests.conftest import *  # noqa
-from ray.types import ObjectRef
+from IncrementalRay.python.ray.types import ObjectRef
 
 
 def _get_first_block(bundles: Iterator[RefBundle]) -> ObjectRef[Block]:

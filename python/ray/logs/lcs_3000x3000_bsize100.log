@@ -1,0 +1,2712 @@
+2024-11-02 00:15:27,675 - Starting LCS calculation...
+2024-11-02 00:15:27,675 - Input strings: length(S1)=3000, length(S2)=3000
+2024-11-02 00:15:27,675 - Using block size: 100
+2024-11-02 00:15:27,676 - Grid size will be: 30 x 30 blocks
+2024-11-02 00:15:27,784 - Strings distributed to Ray cluster
+2024-11-02 00:15:27,785 - 
+Starting block calculations:
+2024-11-02 00:15:27,785 - 
+Processing block (0,0):
+2024-11-02 00:15:27,785 -   Using references: left=No, up=No, diagonal=No
+2024-11-02 00:15:27,802 - 
+Processing block (0,1):
+2024-11-02 00:15:27,802 -   Using references: left=No, up=Yes, diagonal=No
+2024-11-02 00:15:27,804 - 
+Processing block (0,2):
+2024-11-02 00:15:27,804 -   Using references: left=No, up=Yes, diagonal=No
+2024-11-02 00:15:27,806 - 
+Processing block (0,3):
+2024-11-02 00:15:27,806 -   Using references: left=No, up=Yes, diagonal=No
+2024-11-02 00:15:27,807 - 
+Processing block (0,4):
+2024-11-02 00:15:27,808 -   Using references: left=No, up=Yes, diagonal=No
+2024-11-02 00:15:27,809 - 
+Processing block (0,5):
+2024-11-02 00:15:27,809 -   Using references: left=No, up=Yes, diagonal=No
+2024-11-02 00:15:27,811 - 
+Processing block (0,6):
+2024-11-02 00:15:27,811 -   Using references: left=No, up=Yes, diagonal=No
+2024-11-02 00:15:27,813 - 
+Processing block (0,7):
+2024-11-02 00:15:27,813 -   Using references: left=No, up=Yes, diagonal=No
+2024-11-02 00:15:27,815 - 
+Processing block (0,8):
+2024-11-02 00:15:27,816 -   Using references: left=No, up=Yes, diagonal=No
+2024-11-02 00:15:27,817 - 
+Processing block (0,9):
+2024-11-02 00:15:27,818 -   Using references: left=No, up=Yes, diagonal=No
+2024-11-02 00:15:27,819 - 
+Processing block (0,10):
+2024-11-02 00:15:27,819 -   Using references: left=No, up=Yes, diagonal=No
+2024-11-02 00:15:27,820 - 
+Processing block (0,11):
+2024-11-02 00:15:27,821 -   Using references: left=No, up=Yes, diagonal=No
+2024-11-02 00:15:27,822 - 
+Processing block (0,12):
+2024-11-02 00:15:27,822 -   Using references: left=No, up=Yes, diagonal=No
+2024-11-02 00:15:27,823 - 
+Processing block (0,13):
+2024-11-02 00:15:27,824 -   Using references: left=No, up=Yes, diagonal=No
+2024-11-02 00:15:27,825 - 
+Processing block (0,14):
+2024-11-02 00:15:27,825 -   Using references: left=No, up=Yes, diagonal=No
+2024-11-02 00:15:27,826 - 
+Processing block (0,15):
+2024-11-02 00:15:27,826 -   Using references: left=No, up=Yes, diagonal=No
+2024-11-02 00:15:27,828 - 
+Processing block (0,16):
+2024-11-02 00:15:27,828 -   Using references: left=No, up=Yes, diagonal=No
+2024-11-02 00:15:27,829 - 
+Processing block (0,17):
+2024-11-02 00:15:27,830 -   Using references: left=No, up=Yes, diagonal=No
+2024-11-02 00:15:27,831 - 
+Processing block (0,18):
+2024-11-02 00:15:27,831 -   Using references: left=No, up=Yes, diagonal=No
+2024-11-02 00:15:27,832 - 
+Processing block (0,19):
+2024-11-02 00:15:27,833 -   Using references: left=No, up=Yes, diagonal=No
+2024-11-02 00:15:27,834 - 
+Processing block (0,20):
+2024-11-02 00:15:27,834 -   Using references: left=No, up=Yes, diagonal=No
+2024-11-02 00:15:27,835 - 
+Processing block (0,21):
+2024-11-02 00:15:27,835 -   Using references: left=No, up=Yes, diagonal=No
+2024-11-02 00:15:27,837 - 
+Processing block (0,22):
+2024-11-02 00:15:27,837 -   Using references: left=No, up=Yes, diagonal=No
+2024-11-02 00:15:27,838 - 
+Processing block (0,23):
+2024-11-02 00:15:27,838 -   Using references: left=No, up=Yes, diagonal=No
+2024-11-02 00:15:27,840 - 
+Processing block (0,24):
+2024-11-02 00:15:27,840 -   Using references: left=No, up=Yes, diagonal=No
+2024-11-02 00:15:27,841 - 
+Processing block (0,25):
+2024-11-02 00:15:27,842 -   Using references: left=No, up=Yes, diagonal=No
+2024-11-02 00:15:27,843 - 
+Processing block (0,26):
+2024-11-02 00:15:27,843 -   Using references: left=No, up=Yes, diagonal=No
+2024-11-02 00:15:27,844 - 
+Processing block (0,27):
+2024-11-02 00:15:27,844 -   Using references: left=No, up=Yes, diagonal=No
+2024-11-02 00:15:27,845 - 
+Processing block (0,28):
+2024-11-02 00:15:27,846 -   Using references: left=No, up=Yes, diagonal=No
+2024-11-02 00:15:27,847 - 
+Processing block (0,29):
+2024-11-02 00:15:27,847 -   Using references: left=No, up=Yes, diagonal=No
+2024-11-02 00:15:27,849 - 
+Processing block (1,0):
+2024-11-02 00:15:27,849 -   Using references: left=Yes, up=No, diagonal=No
+2024-11-02 00:15:27,851 - 
+Processing block (1,1):
+2024-11-02 00:15:27,851 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,852 - 
+Processing block (1,2):
+2024-11-02 00:15:27,852 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,853 - 
+Processing block (1,3):
+2024-11-02 00:15:27,854 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,855 - 
+Processing block (1,4):
+2024-11-02 00:15:27,855 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,856 - 
+Processing block (1,5):
+2024-11-02 00:15:27,856 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,857 - 
+Processing block (1,6):
+2024-11-02 00:15:27,858 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,859 - 
+Processing block (1,7):
+2024-11-02 00:15:27,859 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,860 - 
+Processing block (1,8):
+2024-11-02 00:15:27,861 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,862 - 
+Processing block (1,9):
+2024-11-02 00:15:27,862 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,863 - 
+Processing block (1,10):
+2024-11-02 00:15:27,863 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,864 - 
+Processing block (1,11):
+2024-11-02 00:15:27,865 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,866 - 
+Processing block (1,12):
+2024-11-02 00:15:27,866 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,867 - 
+Processing block (1,13):
+2024-11-02 00:15:27,867 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,869 - 
+Processing block (1,14):
+2024-11-02 00:15:27,869 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,870 - 
+Processing block (1,15):
+2024-11-02 00:15:27,870 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,872 - 
+Processing block (1,16):
+2024-11-02 00:15:27,872 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,873 - 
+Processing block (1,17):
+2024-11-02 00:15:27,873 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,875 - 
+Processing block (1,18):
+2024-11-02 00:15:27,875 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,876 - 
+Processing block (1,19):
+2024-11-02 00:15:27,876 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,877 - 
+Processing block (1,20):
+2024-11-02 00:15:27,877 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,879 - 
+Processing block (1,21):
+2024-11-02 00:15:27,879 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,880 - 
+Processing block (1,22):
+2024-11-02 00:15:27,880 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,882 - 
+Processing block (1,23):
+2024-11-02 00:15:27,882 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,883 - 
+Processing block (1,24):
+2024-11-02 00:15:27,883 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,884 - 
+Processing block (1,25):
+2024-11-02 00:15:27,885 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,886 - 
+Processing block (1,26):
+2024-11-02 00:15:27,886 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,887 - 
+Processing block (1,27):
+2024-11-02 00:15:27,887 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,888 - 
+Processing block (1,28):
+2024-11-02 00:15:27,889 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,890 - 
+Processing block (1,29):
+2024-11-02 00:15:27,890 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,891 - 
+Processing block (2,0):
+2024-11-02 00:15:27,892 -   Using references: left=Yes, up=No, diagonal=No
+2024-11-02 00:15:27,893 - 
+Processing block (2,1):
+2024-11-02 00:15:27,893 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,894 - 
+Processing block (2,2):
+2024-11-02 00:15:27,894 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,895 - 
+Processing block (2,3):
+2024-11-02 00:15:27,896 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,897 - 
+Processing block (2,4):
+2024-11-02 00:15:27,897 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,898 - 
+Processing block (2,5):
+2024-11-02 00:15:27,898 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,899 - 
+Processing block (2,6):
+2024-11-02 00:15:27,900 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,901 - 
+Processing block (2,7):
+2024-11-02 00:15:27,901 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,902 - 
+Processing block (2,8):
+2024-11-02 00:15:27,903 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,904 - 
+Processing block (2,9):
+2024-11-02 00:15:27,904 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,905 - 
+Processing block (2,10):
+2024-11-02 00:15:27,905 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,906 - 
+Processing block (2,11):
+2024-11-02 00:15:27,907 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,908 - 
+Processing block (2,12):
+2024-11-02 00:15:27,908 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,909 - 
+Processing block (2,13):
+2024-11-02 00:15:27,910 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,911 - 
+Processing block (2,14):
+2024-11-02 00:15:27,911 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,912 - 
+Processing block (2,15):
+2024-11-02 00:15:27,913 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,914 - 
+Processing block (2,16):
+2024-11-02 00:15:27,914 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,915 - 
+Processing block (2,17):
+2024-11-02 00:15:27,915 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,917 - 
+Processing block (2,18):
+2024-11-02 00:15:27,917 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,918 - 
+Processing block (2,19):
+2024-11-02 00:15:27,918 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,919 - 
+Processing block (2,20):
+2024-11-02 00:15:27,920 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,921 - 
+Processing block (2,21):
+2024-11-02 00:15:27,921 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,922 - 
+Processing block (2,22):
+2024-11-02 00:15:27,923 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,924 - 
+Processing block (2,23):
+2024-11-02 00:15:27,924 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,925 - 
+Processing block (2,24):
+2024-11-02 00:15:27,926 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,927 - 
+Processing block (2,25):
+2024-11-02 00:15:27,927 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,928 - 
+Processing block (2,26):
+2024-11-02 00:15:27,928 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,929 - 
+Processing block (2,27):
+2024-11-02 00:15:27,930 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,931 - 
+Processing block (2,28):
+2024-11-02 00:15:27,931 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,932 - 
+Processing block (2,29):
+2024-11-02 00:15:27,933 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,934 - 
+Processing block (3,0):
+2024-11-02 00:15:27,934 -   Using references: left=Yes, up=No, diagonal=No
+2024-11-02 00:15:27,935 - 
+Processing block (3,1):
+2024-11-02 00:15:27,936 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,937 - 
+Processing block (3,2):
+2024-11-02 00:15:27,937 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,938 - 
+Processing block (3,3):
+2024-11-02 00:15:27,939 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,940 - 
+Processing block (3,4):
+2024-11-02 00:15:27,940 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,941 - 
+Processing block (3,5):
+2024-11-02 00:15:27,941 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,943 - 
+Processing block (3,6):
+2024-11-02 00:15:27,943 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,944 - 
+Processing block (3,7):
+2024-11-02 00:15:27,945 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,946 - 
+Processing block (3,8):
+2024-11-02 00:15:27,946 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,947 - 
+Processing block (3,9):
+2024-11-02 00:15:27,947 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,949 - 
+Processing block (3,10):
+2024-11-02 00:15:27,949 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,951 - 
+Processing block (3,11):
+2024-11-02 00:15:27,951 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,952 - 
+Processing block (3,12):
+2024-11-02 00:15:27,953 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,954 - 
+Processing block (3,13):
+2024-11-02 00:15:27,954 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,955 - 
+Processing block (3,14):
+2024-11-02 00:15:27,955 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,956 - 
+Processing block (3,15):
+2024-11-02 00:15:27,957 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,958 - 
+Processing block (3,16):
+2024-11-02 00:15:27,958 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,959 - 
+Processing block (3,17):
+2024-11-02 00:15:27,960 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,961 - 
+Processing block (3,18):
+2024-11-02 00:15:27,961 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,962 - 
+Processing block (3,19):
+2024-11-02 00:15:27,963 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,964 - 
+Processing block (3,20):
+2024-11-02 00:15:27,964 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,965 - 
+Processing block (3,21):
+2024-11-02 00:15:27,966 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,967 - 
+Processing block (3,22):
+2024-11-02 00:15:27,967 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,968 - 
+Processing block (3,23):
+2024-11-02 00:15:27,968 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,970 - 
+Processing block (3,24):
+2024-11-02 00:15:27,970 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,971 - 
+Processing block (3,25):
+2024-11-02 00:15:27,971 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,972 - 
+Processing block (3,26):
+2024-11-02 00:15:27,973 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,974 - 
+Processing block (3,27):
+2024-11-02 00:15:27,974 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,975 - 
+Processing block (3,28):
+2024-11-02 00:15:27,975 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,976 - 
+Processing block (3,29):
+2024-11-02 00:15:27,977 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,978 - 
+Processing block (4,0):
+2024-11-02 00:15:27,978 -   Using references: left=Yes, up=No, diagonal=No
+2024-11-02 00:15:27,980 - 
+Processing block (4,1):
+2024-11-02 00:15:27,980 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,981 - 
+Processing block (4,2):
+2024-11-02 00:15:27,981 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,983 - 
+Processing block (4,3):
+2024-11-02 00:15:27,983 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,984 - 
+Processing block (4,4):
+2024-11-02 00:15:27,984 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,986 - 
+Processing block (4,5):
+2024-11-02 00:15:27,986 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,987 - 
+Processing block (4,6):
+2024-11-02 00:15:27,987 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,988 - 
+Processing block (4,7):
+2024-11-02 00:15:27,989 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,990 - 
+Processing block (4,8):
+2024-11-02 00:15:27,990 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,992 - 
+Processing block (4,9):
+2024-11-02 00:15:27,992 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,993 - 
+Processing block (4,10):
+2024-11-02 00:15:27,993 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,995 - 
+Processing block (4,11):
+2024-11-02 00:15:27,995 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,996 - 
+Processing block (4,12):
+2024-11-02 00:15:27,996 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,997 - 
+Processing block (4,13):
+2024-11-02 00:15:27,997 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:27,999 - 
+Processing block (4,14):
+2024-11-02 00:15:27,999 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,000 - 
+Processing block (4,15):
+2024-11-02 00:15:28,000 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,001 - 
+Processing block (4,16):
+2024-11-02 00:15:28,002 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,003 - 
+Processing block (4,17):
+2024-11-02 00:15:28,003 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,004 - 
+Processing block (4,18):
+2024-11-02 00:15:28,005 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,006 - 
+Processing block (4,19):
+2024-11-02 00:15:28,006 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,008 - 
+Processing block (4,20):
+2024-11-02 00:15:28,008 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,009 - 
+Processing block (4,21):
+2024-11-02 00:15:28,009 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,011 - 
+Processing block (4,22):
+2024-11-02 00:15:28,011 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,012 - 
+Processing block (4,23):
+2024-11-02 00:15:28,013 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,014 - 
+Processing block (4,24):
+2024-11-02 00:15:28,014 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,015 - 
+Processing block (4,25):
+2024-11-02 00:15:28,015 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,017 - 
+Processing block (4,26):
+2024-11-02 00:15:28,017 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,018 - 
+Processing block (4,27):
+2024-11-02 00:15:28,018 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,020 - 
+Processing block (4,28):
+2024-11-02 00:15:28,020 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,021 - 
+Processing block (4,29):
+2024-11-02 00:15:28,021 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,023 - 
+Processing block (5,0):
+2024-11-02 00:15:28,023 -   Using references: left=Yes, up=No, diagonal=No
+2024-11-02 00:15:28,025 - 
+Processing block (5,1):
+2024-11-02 00:15:28,025 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,027 - 
+Processing block (5,2):
+2024-11-02 00:15:28,027 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,028 - 
+Processing block (5,3):
+2024-11-02 00:15:28,029 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,030 - 
+Processing block (5,4):
+2024-11-02 00:15:28,030 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,031 - 
+Processing block (5,5):
+2024-11-02 00:15:28,031 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,033 - 
+Processing block (5,6):
+2024-11-02 00:15:28,033 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,034 - 
+Processing block (5,7):
+2024-11-02 00:15:28,035 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,036 - 
+Processing block (5,8):
+2024-11-02 00:15:28,036 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,037 - 
+Processing block (5,9):
+2024-11-02 00:15:28,037 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,038 - 
+Processing block (5,10):
+2024-11-02 00:15:28,039 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,040 - 
+Processing block (5,11):
+2024-11-02 00:15:28,040 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,041 - 
+Processing block (5,12):
+2024-11-02 00:15:28,041 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,043 - 
+Processing block (5,13):
+2024-11-02 00:15:28,043 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,044 - 
+Processing block (5,14):
+2024-11-02 00:15:28,045 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,046 - 
+Processing block (5,15):
+2024-11-02 00:15:28,046 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,048 - 
+Processing block (5,16):
+2024-11-02 00:15:28,048 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,049 - 
+Processing block (5,17):
+2024-11-02 00:15:28,049 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,050 - 
+Processing block (5,18):
+2024-11-02 00:15:28,051 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,052 - 
+Processing block (5,19):
+2024-11-02 00:15:28,052 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,054 - 
+Processing block (5,20):
+2024-11-02 00:15:28,054 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,055 - 
+Processing block (5,21):
+2024-11-02 00:15:28,055 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,056 - 
+Processing block (5,22):
+2024-11-02 00:15:28,056 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,058 - 
+Processing block (5,23):
+2024-11-02 00:15:28,058 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,060 - 
+Processing block (5,24):
+2024-11-02 00:15:28,060 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,062 - 
+Processing block (5,25):
+2024-11-02 00:15:28,062 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,064 - 
+Processing block (5,26):
+2024-11-02 00:15:28,064 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,067 - 
+Processing block (5,27):
+2024-11-02 00:15:28,067 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,069 - 
+Processing block (5,28):
+2024-11-02 00:15:28,069 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,071 - 
+Processing block (5,29):
+2024-11-02 00:15:28,072 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,074 - 
+Processing block (6,0):
+2024-11-02 00:15:28,074 -   Using references: left=Yes, up=No, diagonal=No
+2024-11-02 00:15:28,076 - 
+Processing block (6,1):
+2024-11-02 00:15:28,077 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,079 - 
+Processing block (6,2):
+2024-11-02 00:15:28,079 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,081 - 
+Processing block (6,3):
+2024-11-02 00:15:28,081 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,083 - 
+Processing block (6,4):
+2024-11-02 00:15:28,083 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,085 - 
+Processing block (6,5):
+2024-11-02 00:15:28,085 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,087 - 
+Processing block (6,6):
+2024-11-02 00:15:28,087 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,089 - 
+Processing block (6,7):
+2024-11-02 00:15:28,089 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,091 - 
+Processing block (6,8):
+2024-11-02 00:15:28,091 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,093 - 
+Processing block (6,9):
+2024-11-02 00:15:28,093 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,095 - 
+Processing block (6,10):
+2024-11-02 00:15:28,095 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,097 - 
+Processing block (6,11):
+2024-11-02 00:15:28,098 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,100 - 
+Processing block (6,12):
+2024-11-02 00:15:28,100 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,102 - 
+Processing block (6,13):
+2024-11-02 00:15:28,103 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,105 - 
+Processing block (6,14):
+2024-11-02 00:15:28,105 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,107 - 
+Processing block (6,15):
+2024-11-02 00:15:28,107 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,109 - 
+Processing block (6,16):
+2024-11-02 00:15:28,110 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,111 - 
+Processing block (6,17):
+2024-11-02 00:15:28,112 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,114 - 
+Processing block (6,18):
+2024-11-02 00:15:28,114 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,117 - 
+Processing block (6,19):
+2024-11-02 00:15:28,118 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,121 - 
+Processing block (6,20):
+2024-11-02 00:15:28,121 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,123 - 
+Processing block (6,21):
+2024-11-02 00:15:28,124 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,125 - 
+Processing block (6,22):
+2024-11-02 00:15:28,126 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,127 - 
+Processing block (6,23):
+2024-11-02 00:15:28,128 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,129 - 
+Processing block (6,24):
+2024-11-02 00:15:28,130 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,131 - 
+Processing block (6,25):
+2024-11-02 00:15:28,132 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,134 - 
+Processing block (6,26):
+2024-11-02 00:15:28,134 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,136 - 
+Processing block (6,27):
+2024-11-02 00:15:28,136 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,138 - 
+Processing block (6,28):
+2024-11-02 00:15:28,138 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,140 - 
+Processing block (6,29):
+2024-11-02 00:15:28,140 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,142 - 
+Processing block (7,0):
+2024-11-02 00:15:28,142 -   Using references: left=Yes, up=No, diagonal=No
+2024-11-02 00:15:28,144 - 
+Processing block (7,1):
+2024-11-02 00:15:28,144 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,146 - 
+Processing block (7,2):
+2024-11-02 00:15:28,146 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,148 - 
+Processing block (7,3):
+2024-11-02 00:15:28,148 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,150 - 
+Processing block (7,4):
+2024-11-02 00:15:28,151 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,152 - 
+Processing block (7,5):
+2024-11-02 00:15:28,153 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,154 - 
+Processing block (7,6):
+2024-11-02 00:15:28,155 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,157 - 
+Processing block (7,7):
+2024-11-02 00:15:28,157 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,159 - 
+Processing block (7,8):
+2024-11-02 00:15:28,159 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,161 - 
+Processing block (7,9):
+2024-11-02 00:15:28,161 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,163 - 
+Processing block (7,10):
+2024-11-02 00:15:28,163 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,165 - 
+Processing block (7,11):
+2024-11-02 00:15:28,166 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,167 - 
+Processing block (7,12):
+2024-11-02 00:15:28,168 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,170 - 
+Processing block (7,13):
+2024-11-02 00:15:28,170 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,172 - 
+Processing block (7,14):
+2024-11-02 00:15:28,172 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,174 - 
+Processing block (7,15):
+2024-11-02 00:15:28,174 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,176 - 
+Processing block (7,16):
+2024-11-02 00:15:28,176 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,179 - 
+Processing block (7,17):
+2024-11-02 00:15:28,179 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,181 - 
+Processing block (7,18):
+2024-11-02 00:15:28,181 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,183 - 
+Processing block (7,19):
+2024-11-02 00:15:28,183 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,185 - 
+Processing block (7,20):
+2024-11-02 00:15:28,185 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,187 - 
+Processing block (7,21):
+2024-11-02 00:15:28,187 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,189 - 
+Processing block (7,22):
+2024-11-02 00:15:28,189 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,191 - 
+Processing block (7,23):
+2024-11-02 00:15:28,191 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,193 - 
+Processing block (7,24):
+2024-11-02 00:15:28,193 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,195 - 
+Processing block (7,25):
+2024-11-02 00:15:28,196 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,197 - 
+Processing block (7,26):
+2024-11-02 00:15:28,198 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,200 - 
+Processing block (7,27):
+2024-11-02 00:15:28,200 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,202 - 
+Processing block (7,28):
+2024-11-02 00:15:28,202 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,204 - 
+Processing block (7,29):
+2024-11-02 00:15:28,204 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,206 - 
+Processing block (8,0):
+2024-11-02 00:15:28,206 -   Using references: left=Yes, up=No, diagonal=No
+2024-11-02 00:15:28,208 - 
+Processing block (8,1):
+2024-11-02 00:15:28,209 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,211 - 
+Processing block (8,2):
+2024-11-02 00:15:28,211 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,213 - 
+Processing block (8,3):
+2024-11-02 00:15:28,213 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,215 - 
+Processing block (8,4):
+2024-11-02 00:15:28,215 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,217 - 
+Processing block (8,5):
+2024-11-02 00:15:28,217 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,219 - 
+Processing block (8,6):
+2024-11-02 00:15:28,219 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,221 - 
+Processing block (8,7):
+2024-11-02 00:15:28,222 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,223 - 
+Processing block (8,8):
+2024-11-02 00:15:28,224 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,225 - 
+Processing block (8,9):
+2024-11-02 00:15:28,226 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,227 - 
+Processing block (8,10):
+2024-11-02 00:15:28,228 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,229 - 
+Processing block (8,11):
+2024-11-02 00:15:28,230 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,231 - 
+Processing block (8,12):
+2024-11-02 00:15:28,232 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,233 - 
+Processing block (8,13):
+2024-11-02 00:15:28,234 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,235 - 
+Processing block (8,14):
+2024-11-02 00:15:28,236 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,237 - 
+Processing block (8,15):
+2024-11-02 00:15:28,238 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,239 - 
+Processing block (8,16):
+2024-11-02 00:15:28,240 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,241 - 
+Processing block (8,17):
+2024-11-02 00:15:28,242 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,243 - 
+Processing block (8,18):
+2024-11-02 00:15:28,244 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,245 - 
+Processing block (8,19):
+2024-11-02 00:15:28,246 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,247 - 
+Processing block (8,20):
+2024-11-02 00:15:28,248 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,250 - 
+Processing block (8,21):
+2024-11-02 00:15:28,250 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,252 - 
+Processing block (8,22):
+2024-11-02 00:15:28,252 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,254 - 
+Processing block (8,23):
+2024-11-02 00:15:28,254 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,256 - 
+Processing block (8,24):
+2024-11-02 00:15:28,256 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,258 - 
+Processing block (8,25):
+2024-11-02 00:15:28,258 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,260 - 
+Processing block (8,26):
+2024-11-02 00:15:28,260 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,262 - 
+Processing block (8,27):
+2024-11-02 00:15:28,262 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,264 - 
+Processing block (8,28):
+2024-11-02 00:15:28,264 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,266 - 
+Processing block (8,29):
+2024-11-02 00:15:28,267 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,268 - 
+Processing block (9,0):
+2024-11-02 00:15:28,269 -   Using references: left=Yes, up=No, diagonal=No
+2024-11-02 00:15:28,270 - 
+Processing block (9,1):
+2024-11-02 00:15:28,271 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,273 - 
+Processing block (9,2):
+2024-11-02 00:15:28,273 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,275 - 
+Processing block (9,3):
+2024-11-02 00:15:28,275 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,277 - 
+Processing block (9,4):
+2024-11-02 00:15:28,277 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,279 - 
+Processing block (9,5):
+2024-11-02 00:15:28,279 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,281 - 
+Processing block (9,6):
+2024-11-02 00:15:28,281 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,283 - 
+Processing block (9,7):
+2024-11-02 00:15:28,283 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,285 - 
+Processing block (9,8):
+2024-11-02 00:15:28,285 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,287 - 
+Processing block (9,9):
+2024-11-02 00:15:28,287 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,288 - 
+Processing block (9,10):
+2024-11-02 00:15:28,289 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,290 - 
+Processing block (9,11):
+2024-11-02 00:15:28,291 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,292 - 
+Processing block (9,12):
+2024-11-02 00:15:28,293 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,294 - 
+Processing block (9,13):
+2024-11-02 00:15:28,295 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,296 - 
+Processing block (9,14):
+2024-11-02 00:15:28,297 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,298 - 
+Processing block (9,15):
+2024-11-02 00:15:28,298 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,300 - 
+Processing block (9,16):
+2024-11-02 00:15:28,300 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,302 - 
+Processing block (9,17):
+2024-11-02 00:15:28,302 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,303 - 
+Processing block (9,18):
+2024-11-02 00:15:28,303 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,305 - 
+Processing block (9,19):
+2024-11-02 00:15:28,305 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,307 - 
+Processing block (9,20):
+2024-11-02 00:15:28,307 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,309 - 
+Processing block (9,21):
+2024-11-02 00:15:28,309 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,310 - 
+Processing block (9,22):
+2024-11-02 00:15:28,310 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,311 - 
+Processing block (9,23):
+2024-11-02 00:15:28,312 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,313 - 
+Processing block (9,24):
+2024-11-02 00:15:28,313 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,314 - 
+Processing block (9,25):
+2024-11-02 00:15:28,314 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,315 - 
+Processing block (9,26):
+2024-11-02 00:15:28,316 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,317 - 
+Processing block (9,27):
+2024-11-02 00:15:28,317 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,318 - 
+Processing block (9,28):
+2024-11-02 00:15:28,318 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,319 - 
+Processing block (9,29):
+2024-11-02 00:15:28,320 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,321 - 
+Processing block (10,0):
+2024-11-02 00:15:28,321 -   Using references: left=Yes, up=No, diagonal=No
+2024-11-02 00:15:28,322 - 
+Processing block (10,1):
+2024-11-02 00:15:28,322 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,323 - 
+Processing block (10,2):
+2024-11-02 00:15:28,324 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,325 - 
+Processing block (10,3):
+2024-11-02 00:15:28,325 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,326 - 
+Processing block (10,4):
+2024-11-02 00:15:28,326 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,327 - 
+Processing block (10,5):
+2024-11-02 00:15:28,327 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,329 - 
+Processing block (10,6):
+2024-11-02 00:15:28,329 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,330 - 
+Processing block (10,7):
+2024-11-02 00:15:28,330 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,331 - 
+Processing block (10,8):
+2024-11-02 00:15:28,332 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,333 - 
+Processing block (10,9):
+2024-11-02 00:15:28,333 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,334 - 
+Processing block (10,10):
+2024-11-02 00:15:28,334 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,335 - 
+Processing block (10,11):
+2024-11-02 00:15:28,336 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,337 - 
+Processing block (10,12):
+2024-11-02 00:15:28,337 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,338 - 
+Processing block (10,13):
+2024-11-02 00:15:28,338 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,339 - 
+Processing block (10,14):
+2024-11-02 00:15:28,340 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,341 - 
+Processing block (10,15):
+2024-11-02 00:15:28,341 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,342 - 
+Processing block (10,16):
+2024-11-02 00:15:28,342 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,343 - 
+Processing block (10,17):
+2024-11-02 00:15:28,344 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,345 - 
+Processing block (10,18):
+2024-11-02 00:15:28,345 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,346 - 
+Processing block (10,19):
+2024-11-02 00:15:28,346 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,348 - 
+Processing block (10,20):
+2024-11-02 00:15:28,348 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,349 - 
+Processing block (10,21):
+2024-11-02 00:15:28,349 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,350 - 
+Processing block (10,22):
+2024-11-02 00:15:28,350 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,352 - 
+Processing block (10,23):
+2024-11-02 00:15:28,352 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,353 - 
+Processing block (10,24):
+2024-11-02 00:15:28,353 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,354 - 
+Processing block (10,25):
+2024-11-02 00:15:28,355 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,356 - 
+Processing block (10,26):
+2024-11-02 00:15:28,356 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,358 - 
+Processing block (10,27):
+2024-11-02 00:15:28,359 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,361 - 
+Processing block (10,28):
+2024-11-02 00:15:28,361 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,362 - 
+Processing block (10,29):
+2024-11-02 00:15:28,362 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,363 - 
+Processing block (11,0):
+2024-11-02 00:15:28,364 -   Using references: left=Yes, up=No, diagonal=No
+2024-11-02 00:15:28,365 - 
+Processing block (11,1):
+2024-11-02 00:15:28,365 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,367 - 
+Processing block (11,2):
+2024-11-02 00:15:28,367 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,368 - 
+Processing block (11,3):
+2024-11-02 00:15:28,369 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,371 - 
+Processing block (11,4):
+2024-11-02 00:15:28,371 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,373 - 
+Processing block (11,5):
+2024-11-02 00:15:28,373 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,375 - 
+Processing block (11,6):
+2024-11-02 00:15:28,375 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,377 - 
+Processing block (11,7):
+2024-11-02 00:15:28,377 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,379 - 
+Processing block (11,8):
+2024-11-02 00:15:28,380 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,382 - 
+Processing block (11,9):
+2024-11-02 00:15:28,382 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,384 - 
+Processing block (11,10):
+2024-11-02 00:15:28,384 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,386 - 
+Processing block (11,11):
+2024-11-02 00:15:28,387 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,389 - 
+Processing block (11,12):
+2024-11-02 00:15:28,389 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,391 - 
+Processing block (11,13):
+2024-11-02 00:15:28,392 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,393 - 
+Processing block (11,14):
+2024-11-02 00:15:28,394 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,395 - 
+Processing block (11,15):
+2024-11-02 00:15:28,395 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,396 - 
+Processing block (11,16):
+2024-11-02 00:15:28,397 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,398 - 
+Processing block (11,17):
+2024-11-02 00:15:28,398 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,399 - 
+Processing block (11,18):
+2024-11-02 00:15:28,400 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,401 - 
+Processing block (11,19):
+2024-11-02 00:15:28,401 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,402 - 
+Processing block (11,20):
+2024-11-02 00:15:28,402 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,404 - 
+Processing block (11,21):
+2024-11-02 00:15:28,404 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,406 - 
+Processing block (11,22):
+2024-11-02 00:15:28,406 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,408 - 
+Processing block (11,23):
+2024-11-02 00:15:28,408 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,409 - 
+Processing block (11,24):
+2024-11-02 00:15:28,410 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,411 - 
+Processing block (11,25):
+2024-11-02 00:15:28,412 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,413 - 
+Processing block (11,26):
+2024-11-02 00:15:28,413 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,415 - 
+Processing block (11,27):
+2024-11-02 00:15:28,415 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,416 - 
+Processing block (11,28):
+2024-11-02 00:15:28,416 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,418 - 
+Processing block (11,29):
+2024-11-02 00:15:28,418 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,420 - 
+Processing block (12,0):
+2024-11-02 00:15:28,420 -   Using references: left=Yes, up=No, diagonal=No
+2024-11-02 00:15:28,421 - 
+Processing block (12,1):
+2024-11-02 00:15:28,421 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,423 - 
+Processing block (12,2):
+2024-11-02 00:15:28,423 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,424 - 
+Processing block (12,3):
+2024-11-02 00:15:28,425 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,426 - 
+Processing block (12,4):
+2024-11-02 00:15:28,426 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,427 - 
+Processing block (12,5):
+2024-11-02 00:15:28,427 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,429 - 
+Processing block (12,6):
+2024-11-02 00:15:28,429 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,430 - 
+Processing block (12,7):
+2024-11-02 00:15:28,430 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,431 - 
+Processing block (12,8):
+2024-11-02 00:15:28,432 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,433 - 
+Processing block (12,9):
+2024-11-02 00:15:28,433 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,435 - 
+Processing block (12,10):
+2024-11-02 00:15:28,435 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,436 - 
+Processing block (12,11):
+2024-11-02 00:15:28,436 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,437 - 
+Processing block (12,12):
+2024-11-02 00:15:28,438 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,439 - 
+Processing block (12,13):
+2024-11-02 00:15:28,439 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,440 - 
+Processing block (12,14):
+2024-11-02 00:15:28,440 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,441 - 
+Processing block (12,15):
+2024-11-02 00:15:28,442 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,443 - 
+Processing block (12,16):
+2024-11-02 00:15:28,443 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,444 - 
+Processing block (12,17):
+2024-11-02 00:15:28,445 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,446 - 
+Processing block (12,18):
+2024-11-02 00:15:28,446 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,447 - 
+Processing block (12,19):
+2024-11-02 00:15:28,448 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,449 - 
+Processing block (12,20):
+2024-11-02 00:15:28,449 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,451 - 
+Processing block (12,21):
+2024-11-02 00:15:28,451 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,452 - 
+Processing block (12,22):
+2024-11-02 00:15:28,452 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,454 - 
+Processing block (12,23):
+2024-11-02 00:15:28,454 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,455 - 
+Processing block (12,24):
+2024-11-02 00:15:28,455 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,456 - 
+Processing block (12,25):
+2024-11-02 00:15:28,457 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,458 - 
+Processing block (12,26):
+2024-11-02 00:15:28,458 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,459 - 
+Processing block (12,27):
+2024-11-02 00:15:28,460 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,461 - 
+Processing block (12,28):
+2024-11-02 00:15:28,461 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,463 - 
+Processing block (12,29):
+2024-11-02 00:15:28,463 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,465 - 
+Processing block (13,0):
+2024-11-02 00:15:28,465 -   Using references: left=Yes, up=No, diagonal=No
+2024-11-02 00:15:28,467 - 
+Processing block (13,1):
+2024-11-02 00:15:28,467 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,469 - 
+Processing block (13,2):
+2024-11-02 00:15:28,469 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,471 - 
+Processing block (13,3):
+2024-11-02 00:15:28,471 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,473 - 
+Processing block (13,4):
+2024-11-02 00:15:28,473 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,475 - 
+Processing block (13,5):
+2024-11-02 00:15:28,475 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,477 - 
+Processing block (13,6):
+2024-11-02 00:15:28,477 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,479 - 
+Processing block (13,7):
+2024-11-02 00:15:28,479 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,481 - 
+Processing block (13,8):
+2024-11-02 00:15:28,481 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,483 - 
+Processing block (13,9):
+2024-11-02 00:15:28,483 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,485 - 
+Processing block (13,10):
+2024-11-02 00:15:28,485 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,487 - 
+Processing block (13,11):
+2024-11-02 00:15:28,488 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,489 - 
+Processing block (13,12):
+2024-11-02 00:15:28,490 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,491 - 
+Processing block (13,13):
+2024-11-02 00:15:28,492 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,493 - 
+Processing block (13,14):
+2024-11-02 00:15:28,493 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,495 - 
+Processing block (13,15):
+2024-11-02 00:15:28,495 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,497 - 
+Processing block (13,16):
+2024-11-02 00:15:28,497 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,499 - 
+Processing block (13,17):
+2024-11-02 00:15:28,499 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,500 - 
+Processing block (13,18):
+2024-11-02 00:15:28,501 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,502 - 
+Processing block (13,19):
+2024-11-02 00:15:28,503 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,504 - 
+Processing block (13,20):
+2024-11-02 00:15:28,505 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,506 - 
+Processing block (13,21):
+2024-11-02 00:15:28,507 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,509 - 
+Processing block (13,22):
+2024-11-02 00:15:28,509 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,511 - 
+Processing block (13,23):
+2024-11-02 00:15:28,512 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,514 - 
+Processing block (13,24):
+2024-11-02 00:15:28,514 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,516 - 
+Processing block (13,25):
+2024-11-02 00:15:28,516 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,518 - 
+Processing block (13,26):
+2024-11-02 00:15:28,518 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,520 - 
+Processing block (13,27):
+2024-11-02 00:15:28,520 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,522 - 
+Processing block (13,28):
+2024-11-02 00:15:28,522 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,524 - 
+Processing block (13,29):
+2024-11-02 00:15:28,524 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,526 - 
+Processing block (14,0):
+2024-11-02 00:15:28,526 -   Using references: left=Yes, up=No, diagonal=No
+2024-11-02 00:15:28,528 - 
+Processing block (14,1):
+2024-11-02 00:15:28,528 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,530 - 
+Processing block (14,2):
+2024-11-02 00:15:28,530 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,532 - 
+Processing block (14,3):
+2024-11-02 00:15:28,532 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,533 - 
+Processing block (14,4):
+2024-11-02 00:15:28,534 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,535 - 
+Processing block (14,5):
+2024-11-02 00:15:28,536 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,537 - 
+Processing block (14,6):
+2024-11-02 00:15:28,537 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,539 - 
+Processing block (14,7):
+2024-11-02 00:15:28,539 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,541 - 
+Processing block (14,8):
+2024-11-02 00:15:28,541 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,543 - 
+Processing block (14,9):
+2024-11-02 00:15:28,543 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,544 - 
+Processing block (14,10):
+2024-11-02 00:15:28,545 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,546 - 
+Processing block (14,11):
+2024-11-02 00:15:28,546 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,548 - 
+Processing block (14,12):
+2024-11-02 00:15:28,548 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,550 - 
+Processing block (14,13):
+2024-11-02 00:15:28,550 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,552 - 
+Processing block (14,14):
+2024-11-02 00:15:28,552 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,553 - 
+Processing block (14,15):
+2024-11-02 00:15:28,554 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,555 - 
+Processing block (14,16):
+2024-11-02 00:15:28,556 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,557 - 
+Processing block (14,17):
+2024-11-02 00:15:28,557 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,559 - 
+Processing block (14,18):
+2024-11-02 00:15:28,559 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,561 - 
+Processing block (14,19):
+2024-11-02 00:15:28,561 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,563 - 
+Processing block (14,20):
+2024-11-02 00:15:28,563 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,564 - 
+Processing block (14,21):
+2024-11-02 00:15:28,565 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,566 - 
+Processing block (14,22):
+2024-11-02 00:15:28,567 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,568 - 
+Processing block (14,23):
+2024-11-02 00:15:28,569 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,570 - 
+Processing block (14,24):
+2024-11-02 00:15:28,571 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,572 - 
+Processing block (14,25):
+2024-11-02 00:15:28,572 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,574 - 
+Processing block (14,26):
+2024-11-02 00:15:28,574 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,577 - 
+Processing block (14,27):
+2024-11-02 00:15:28,577 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,579 - 
+Processing block (14,28):
+2024-11-02 00:15:28,579 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,581 - 
+Processing block (14,29):
+2024-11-02 00:15:28,581 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,582 - 
+Processing block (15,0):
+2024-11-02 00:15:28,583 -   Using references: left=Yes, up=No, diagonal=No
+2024-11-02 00:15:28,584 - 
+Processing block (15,1):
+2024-11-02 00:15:28,585 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,586 - 
+Processing block (15,2):
+2024-11-02 00:15:28,586 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,588 - 
+Processing block (15,3):
+2024-11-02 00:15:28,588 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,590 - 
+Processing block (15,4):
+2024-11-02 00:15:28,590 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,591 - 
+Processing block (15,5):
+2024-11-02 00:15:28,592 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,594 - 
+Processing block (15,6):
+2024-11-02 00:15:28,594 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,596 - 
+Processing block (15,7):
+2024-11-02 00:15:28,596 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,598 - 
+Processing block (15,8):
+2024-11-02 00:15:28,598 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,600 - 
+Processing block (15,9):
+2024-11-02 00:15:28,600 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,601 - 
+Processing block (15,10):
+2024-11-02 00:15:28,602 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,604 - 
+Processing block (15,11):
+2024-11-02 00:15:28,604 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,606 - 
+Processing block (15,12):
+2024-11-02 00:15:28,606 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,608 - 
+Processing block (15,13):
+2024-11-02 00:15:28,608 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,611 - 
+Processing block (15,14):
+2024-11-02 00:15:28,612 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,614 - 
+Processing block (15,15):
+2024-11-02 00:15:28,614 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,617 - 
+Processing block (15,16):
+2024-11-02 00:15:28,617 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,619 - 
+Processing block (15,17):
+2024-11-02 00:15:28,619 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,622 - 
+Processing block (15,18):
+2024-11-02 00:15:28,623 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,627 - 
+Processing block (15,19):
+2024-11-02 00:15:28,627 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,630 - 
+Processing block (15,20):
+2024-11-02 00:15:28,630 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,632 - 
+Processing block (15,21):
+2024-11-02 00:15:28,632 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,634 - 
+Processing block (15,22):
+2024-11-02 00:15:28,635 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,637 - 
+Processing block (15,23):
+2024-11-02 00:15:28,637 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,639 - 
+Processing block (15,24):
+2024-11-02 00:15:28,639 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,641 - 
+Processing block (15,25):
+2024-11-02 00:15:28,641 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,643 - 
+Processing block (15,26):
+2024-11-02 00:15:28,643 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,645 - 
+Processing block (15,27):
+2024-11-02 00:15:28,645 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,647 - 
+Processing block (15,28):
+2024-11-02 00:15:28,647 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,648 - 
+Processing block (15,29):
+2024-11-02 00:15:28,648 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,650 - 
+Processing block (16,0):
+2024-11-02 00:15:28,650 -   Using references: left=Yes, up=No, diagonal=No
+2024-11-02 00:15:28,652 - 
+Processing block (16,1):
+2024-11-02 00:15:28,653 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,655 - 
+Processing block (16,2):
+2024-11-02 00:15:28,655 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,657 - 
+Processing block (16,3):
+2024-11-02 00:15:28,657 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,660 - 
+Processing block (16,4):
+2024-11-02 00:15:28,660 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,662 - 
+Processing block (16,5):
+2024-11-02 00:15:28,662 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,665 - 
+Processing block (16,6):
+2024-11-02 00:15:28,665 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,667 - 
+Processing block (16,7):
+2024-11-02 00:15:28,667 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,669 - 
+Processing block (16,8):
+2024-11-02 00:15:28,669 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,671 - 
+Processing block (16,9):
+2024-11-02 00:15:28,671 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,673 - 
+Processing block (16,10):
+2024-11-02 00:15:28,673 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,675 - 
+Processing block (16,11):
+2024-11-02 00:15:28,675 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,676 - 
+Processing block (16,12):
+2024-11-02 00:15:28,677 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,678 - 
+Processing block (16,13):
+2024-11-02 00:15:28,678 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,679 - 
+Processing block (16,14):
+2024-11-02 00:15:28,680 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,681 - 
+Processing block (16,15):
+2024-11-02 00:15:28,681 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,683 - 
+Processing block (16,16):
+2024-11-02 00:15:28,683 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,685 - 
+Processing block (16,17):
+2024-11-02 00:15:28,685 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,686 - 
+Processing block (16,18):
+2024-11-02 00:15:28,687 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,688 - 
+Processing block (16,19):
+2024-11-02 00:15:28,689 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,690 - 
+Processing block (16,20):
+2024-11-02 00:15:28,690 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,692 - 
+Processing block (16,21):
+2024-11-02 00:15:28,692 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,694 - 
+Processing block (16,22):
+2024-11-02 00:15:28,694 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,696 - 
+Processing block (16,23):
+2024-11-02 00:15:28,696 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,698 - 
+Processing block (16,24):
+2024-11-02 00:15:28,698 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,700 - 
+Processing block (16,25):
+2024-11-02 00:15:28,700 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,701 - 
+Processing block (16,26):
+2024-11-02 00:15:28,702 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,703 - 
+Processing block (16,27):
+2024-11-02 00:15:28,704 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,705 - 
+Processing block (16,28):
+2024-11-02 00:15:28,706 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,707 - 
+Processing block (16,29):
+2024-11-02 00:15:28,708 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,710 - 
+Processing block (17,0):
+2024-11-02 00:15:28,710 -   Using references: left=Yes, up=No, diagonal=No
+2024-11-02 00:15:28,712 - 
+Processing block (17,1):
+2024-11-02 00:15:28,712 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,715 - 
+Processing block (17,2):
+2024-11-02 00:15:28,716 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,718 - 
+Processing block (17,3):
+2024-11-02 00:15:28,718 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,720 - 
+Processing block (17,4):
+2024-11-02 00:15:28,720 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,723 - 
+Processing block (17,5):
+2024-11-02 00:15:28,723 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,725 - 
+Processing block (17,6):
+2024-11-02 00:15:28,725 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,728 - 
+Processing block (17,7):
+2024-11-02 00:15:28,728 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,730 - 
+Processing block (17,8):
+2024-11-02 00:15:28,730 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,732 - 
+Processing block (17,9):
+2024-11-02 00:15:28,733 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,735 - 
+Processing block (17,10):
+2024-11-02 00:15:28,735 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,737 - 
+Processing block (17,11):
+2024-11-02 00:15:28,737 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,739 - 
+Processing block (17,12):
+2024-11-02 00:15:28,739 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,741 - 
+Processing block (17,13):
+2024-11-02 00:15:28,741 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,743 - 
+Processing block (17,14):
+2024-11-02 00:15:28,743 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,745 - 
+Processing block (17,15):
+2024-11-02 00:15:28,745 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,747 - 
+Processing block (17,16):
+2024-11-02 00:15:28,747 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,748 - 
+Processing block (17,17):
+2024-11-02 00:15:28,749 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,750 - 
+Processing block (17,18):
+2024-11-02 00:15:28,750 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,752 - 
+Processing block (17,19):
+2024-11-02 00:15:28,752 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,754 - 
+Processing block (17,20):
+2024-11-02 00:15:28,754 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,756 - 
+Processing block (17,21):
+2024-11-02 00:15:28,756 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,758 - 
+Processing block (17,22):
+2024-11-02 00:15:28,758 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,759 - 
+Processing block (17,23):
+2024-11-02 00:15:28,760 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,761 - 
+Processing block (17,24):
+2024-11-02 00:15:28,761 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,763 - 
+Processing block (17,25):
+2024-11-02 00:15:28,763 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,765 - 
+Processing block (17,26):
+2024-11-02 00:15:28,765 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,766 - 
+Processing block (17,27):
+2024-11-02 00:15:28,767 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,768 - 
+Processing block (17,28):
+2024-11-02 00:15:28,768 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,770 - 
+Processing block (17,29):
+2024-11-02 00:15:28,770 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,772 - 
+Processing block (18,0):
+2024-11-02 00:15:28,772 -   Using references: left=Yes, up=No, diagonal=No
+2024-11-02 00:15:28,774 - 
+Processing block (18,1):
+2024-11-02 00:15:28,774 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,776 - 
+Processing block (18,2):
+2024-11-02 00:15:28,776 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,778 - 
+Processing block (18,3):
+2024-11-02 00:15:28,778 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,780 - 
+Processing block (18,4):
+2024-11-02 00:15:28,781 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,782 - 
+Processing block (18,5):
+2024-11-02 00:15:28,783 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,784 - 
+Processing block (18,6):
+2024-11-02 00:15:28,785 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,787 - 
+Processing block (18,7):
+2024-11-02 00:15:28,787 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,788 - 
+Processing block (18,8):
+2024-11-02 00:15:28,789 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,790 - 
+Processing block (18,9):
+2024-11-02 00:15:28,791 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,792 - 
+Processing block (18,10):
+2024-11-02 00:15:28,792 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,794 - 
+Processing block (18,11):
+2024-11-02 00:15:28,794 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,796 - 
+Processing block (18,12):
+2024-11-02 00:15:28,796 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,798 - 
+Processing block (18,13):
+2024-11-02 00:15:28,798 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,799 - 
+Processing block (18,14):
+2024-11-02 00:15:28,800 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,801 - 
+Processing block (18,15):
+2024-11-02 00:15:28,802 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,803 - 
+Processing block (18,16):
+2024-11-02 00:15:28,804 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,805 - 
+Processing block (18,17):
+2024-11-02 00:15:28,806 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,808 - 
+Processing block (18,18):
+2024-11-02 00:15:28,808 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,810 - 
+Processing block (18,19):
+2024-11-02 00:15:28,810 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,812 - 
+Processing block (18,20):
+2024-11-02 00:15:28,812 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,815 - 
+Processing block (18,21):
+2024-11-02 00:15:28,815 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,817 - 
+Processing block (18,22):
+2024-11-02 00:15:28,817 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,819 - 
+Processing block (18,23):
+2024-11-02 00:15:28,819 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,821 - 
+Processing block (18,24):
+2024-11-02 00:15:28,821 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,823 - 
+Processing block (18,25):
+2024-11-02 00:15:28,823 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,825 - 
+Processing block (18,26):
+2024-11-02 00:15:28,825 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,826 - 
+Processing block (18,27):
+2024-11-02 00:15:28,827 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,828 - 
+Processing block (18,28):
+2024-11-02 00:15:28,829 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,830 - 
+Processing block (18,29):
+2024-11-02 00:15:28,830 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,832 - 
+Processing block (19,0):
+2024-11-02 00:15:28,832 -   Using references: left=Yes, up=No, diagonal=No
+2024-11-02 00:15:28,834 - 
+Processing block (19,1):
+2024-11-02 00:15:28,834 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,836 - 
+Processing block (19,2):
+2024-11-02 00:15:28,836 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,838 - 
+Processing block (19,3):
+2024-11-02 00:15:28,838 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,840 - 
+Processing block (19,4):
+2024-11-02 00:15:28,840 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,842 - 
+Processing block (19,5):
+2024-11-02 00:15:28,842 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,844 - 
+Processing block (19,6):
+2024-11-02 00:15:28,844 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,845 - 
+Processing block (19,7):
+2024-11-02 00:15:28,846 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,847 - 
+Processing block (19,8):
+2024-11-02 00:15:28,847 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,849 - 
+Processing block (19,9):
+2024-11-02 00:15:28,849 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,851 - 
+Processing block (19,10):
+2024-11-02 00:15:28,851 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,853 - 
+Processing block (19,11):
+2024-11-02 00:15:28,853 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,855 - 
+Processing block (19,12):
+2024-11-02 00:15:28,855 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,857 - 
+Processing block (19,13):
+2024-11-02 00:15:28,858 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,860 - 
+Processing block (19,14):
+2024-11-02 00:15:28,860 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,862 - 
+Processing block (19,15):
+2024-11-02 00:15:28,862 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,864 - 
+Processing block (19,16):
+2024-11-02 00:15:28,865 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,867 - 
+Processing block (19,17):
+2024-11-02 00:15:28,867 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,868 - 
+Processing block (19,18):
+2024-11-02 00:15:28,869 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,870 - 
+Processing block (19,19):
+2024-11-02 00:15:28,871 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,872 - 
+Processing block (19,20):
+2024-11-02 00:15:28,872 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,874 - 
+Processing block (19,21):
+2024-11-02 00:15:28,874 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,876 - 
+Processing block (19,22):
+2024-11-02 00:15:28,876 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,878 - 
+Processing block (19,23):
+2024-11-02 00:15:28,878 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,880 - 
+Processing block (19,24):
+2024-11-02 00:15:28,880 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,882 - 
+Processing block (19,25):
+2024-11-02 00:15:28,882 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,884 - 
+Processing block (19,26):
+2024-11-02 00:15:28,884 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,885 - 
+Processing block (19,27):
+2024-11-02 00:15:28,886 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,887 - 
+Processing block (19,28):
+2024-11-02 00:15:28,888 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,889 - 
+Processing block (19,29):
+2024-11-02 00:15:28,890 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,891 - 
+Processing block (20,0):
+2024-11-02 00:15:28,891 -   Using references: left=Yes, up=No, diagonal=No
+2024-11-02 00:15:28,893 - 
+Processing block (20,1):
+2024-11-02 00:15:28,893 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,895 - 
+Processing block (20,2):
+2024-11-02 00:15:28,895 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,897 - 
+Processing block (20,3):
+2024-11-02 00:15:28,897 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,898 - 
+Processing block (20,4):
+2024-11-02 00:15:28,899 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,900 - 
+Processing block (20,5):
+2024-11-02 00:15:28,900 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,902 - 
+Processing block (20,6):
+2024-11-02 00:15:28,902 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,904 - 
+Processing block (20,7):
+2024-11-02 00:15:28,904 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,906 - 
+Processing block (20,8):
+2024-11-02 00:15:28,906 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,908 - 
+Processing block (20,9):
+2024-11-02 00:15:28,908 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,910 - 
+Processing block (20,10):
+2024-11-02 00:15:28,910 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,912 - 
+Processing block (20,11):
+2024-11-02 00:15:28,912 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,914 - 
+Processing block (20,12):
+2024-11-02 00:15:28,915 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,916 - 
+Processing block (20,13):
+2024-11-02 00:15:28,917 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,918 - 
+Processing block (20,14):
+2024-11-02 00:15:28,919 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,921 - 
+Processing block (20,15):
+2024-11-02 00:15:28,921 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,923 - 
+Processing block (20,16):
+2024-11-02 00:15:28,923 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,925 - 
+Processing block (20,17):
+2024-11-02 00:15:28,925 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,927 - 
+Processing block (20,18):
+2024-11-02 00:15:28,927 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,929 - 
+Processing block (20,19):
+2024-11-02 00:15:28,930 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,931 - 
+Processing block (20,20):
+2024-11-02 00:15:28,932 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,933 - 
+Processing block (20,21):
+2024-11-02 00:15:28,934 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,936 - 
+Processing block (20,22):
+2024-11-02 00:15:28,937 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,939 - 
+Processing block (20,23):
+2024-11-02 00:15:28,939 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,941 - 
+Processing block (20,24):
+2024-11-02 00:15:28,941 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,943 - 
+Processing block (20,25):
+2024-11-02 00:15:28,943 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,945 - 
+Processing block (20,26):
+2024-11-02 00:15:28,945 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,947 - 
+Processing block (20,27):
+2024-11-02 00:15:28,947 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,949 - 
+Processing block (20,28):
+2024-11-02 00:15:28,949 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,951 - 
+Processing block (20,29):
+2024-11-02 00:15:28,951 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,952 - 
+Processing block (21,0):
+2024-11-02 00:15:28,953 -   Using references: left=Yes, up=No, diagonal=No
+2024-11-02 00:15:28,954 - 
+Processing block (21,1):
+2024-11-02 00:15:28,955 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,956 - 
+Processing block (21,2):
+2024-11-02 00:15:28,957 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,958 - 
+Processing block (21,3):
+2024-11-02 00:15:28,959 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,960 - 
+Processing block (21,4):
+2024-11-02 00:15:28,960 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,962 - 
+Processing block (21,5):
+2024-11-02 00:15:28,962 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,964 - 
+Processing block (21,6):
+2024-11-02 00:15:28,964 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,966 - 
+Processing block (21,7):
+2024-11-02 00:15:28,966 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,967 - 
+Processing block (21,8):
+2024-11-02 00:15:28,968 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,969 - 
+Processing block (21,9):
+2024-11-02 00:15:28,970 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,971 - 
+Processing block (21,10):
+2024-11-02 00:15:28,972 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,973 - 
+Processing block (21,11):
+2024-11-02 00:15:28,973 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,975 - 
+Processing block (21,12):
+2024-11-02 00:15:28,975 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,977 - 
+Processing block (21,13):
+2024-11-02 00:15:28,977 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,979 - 
+Processing block (21,14):
+2024-11-02 00:15:28,979 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,981 - 
+Processing block (21,15):
+2024-11-02 00:15:28,981 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,982 - 
+Processing block (21,16):
+2024-11-02 00:15:28,983 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,984 - 
+Processing block (21,17):
+2024-11-02 00:15:28,985 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,986 - 
+Processing block (21,18):
+2024-11-02 00:15:28,986 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,988 - 
+Processing block (21,19):
+2024-11-02 00:15:28,988 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,990 - 
+Processing block (21,20):
+2024-11-02 00:15:28,990 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,992 - 
+Processing block (21,21):
+2024-11-02 00:15:28,992 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,993 - 
+Processing block (21,22):
+2024-11-02 00:15:28,994 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,995 - 
+Processing block (21,23):
+2024-11-02 00:15:28,996 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,997 - 
+Processing block (21,24):
+2024-11-02 00:15:28,998 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:28,999 - 
+Processing block (21,25):
+2024-11-02 00:15:28,999 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,001 - 
+Processing block (21,26):
+2024-11-02 00:15:29,001 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,003 - 
+Processing block (21,27):
+2024-11-02 00:15:29,003 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,005 - 
+Processing block (21,28):
+2024-11-02 00:15:29,005 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,007 - 
+Processing block (21,29):
+2024-11-02 00:15:29,007 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,009 - 
+Processing block (22,0):
+2024-11-02 00:15:29,009 -   Using references: left=Yes, up=No, diagonal=No
+2024-11-02 00:15:29,011 - 
+Processing block (22,1):
+2024-11-02 00:15:29,011 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,013 - 
+Processing block (22,2):
+2024-11-02 00:15:29,013 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,015 - 
+Processing block (22,3):
+2024-11-02 00:15:29,015 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,017 - 
+Processing block (22,4):
+2024-11-02 00:15:29,017 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,018 - 
+Processing block (22,5):
+2024-11-02 00:15:29,019 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,020 - 
+Processing block (22,6):
+2024-11-02 00:15:29,021 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,022 - 
+Processing block (22,7):
+2024-11-02 00:15:29,022 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,024 - 
+Processing block (22,8):
+2024-11-02 00:15:29,024 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,026 - 
+Processing block (22,9):
+2024-11-02 00:15:29,026 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,028 - 
+Processing block (22,10):
+2024-11-02 00:15:29,028 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,029 - 
+Processing block (22,11):
+2024-11-02 00:15:29,030 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,031 - 
+Processing block (22,12):
+2024-11-02 00:15:29,031 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,033 - 
+Processing block (22,13):
+2024-11-02 00:15:29,033 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,035 - 
+Processing block (22,14):
+2024-11-02 00:15:29,035 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,037 - 
+Processing block (22,15):
+2024-11-02 00:15:29,037 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,039 - 
+Processing block (22,16):
+2024-11-02 00:15:29,039 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,040 - 
+Processing block (22,17):
+2024-11-02 00:15:29,041 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,042 - 
+Processing block (22,18):
+2024-11-02 00:15:29,043 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,044 - 
+Processing block (22,19):
+2024-11-02 00:15:29,045 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,046 - 
+Processing block (22,20):
+2024-11-02 00:15:29,047 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,048 - 
+Processing block (22,21):
+2024-11-02 00:15:29,049 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,050 - 
+Processing block (22,22):
+2024-11-02 00:15:29,050 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,052 - 
+Processing block (22,23):
+2024-11-02 00:15:29,052 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,054 - 
+Processing block (22,24):
+2024-11-02 00:15:29,054 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,056 - 
+Processing block (22,25):
+2024-11-02 00:15:29,056 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,059 - 
+Processing block (22,26):
+2024-11-02 00:15:29,059 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,061 - 
+Processing block (22,27):
+2024-11-02 00:15:29,061 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,064 - 
+Processing block (22,28):
+2024-11-02 00:15:29,064 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,071 - 
+Processing block (22,29):
+2024-11-02 00:15:29,071 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,073 - 
+Processing block (23,0):
+2024-11-02 00:15:29,073 -   Using references: left=Yes, up=No, diagonal=No
+2024-11-02 00:15:29,078 - 
+Processing block (23,1):
+2024-11-02 00:15:29,078 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,080 - 
+Processing block (23,2):
+2024-11-02 00:15:29,080 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,082 - 
+Processing block (23,3):
+2024-11-02 00:15:29,083 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,084 - 
+Processing block (23,4):
+2024-11-02 00:15:29,085 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,087 - 
+Processing block (23,5):
+2024-11-02 00:15:29,087 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,089 - 
+Processing block (23,6):
+2024-11-02 00:15:29,089 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,094 - 
+Processing block (23,7):
+2024-11-02 00:15:29,094 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,096 - 
+Processing block (23,8):
+2024-11-02 00:15:29,096 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,098 - 
+Processing block (23,9):
+2024-11-02 00:15:29,098 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,100 - 
+Processing block (23,10):
+2024-11-02 00:15:29,101 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,103 - 
+Processing block (23,11):
+2024-11-02 00:15:29,103 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,107 - 
+Processing block (23,12):
+2024-11-02 00:15:29,107 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,110 - 
+Processing block (23,13):
+2024-11-02 00:15:29,110 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,112 - 
+Processing block (23,14):
+2024-11-02 00:15:29,112 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,114 - 
+Processing block (23,15):
+2024-11-02 00:15:29,115 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,118 - 
+Processing block (23,16):
+2024-11-02 00:15:29,119 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,121 - 
+Processing block (23,17):
+2024-11-02 00:15:29,121 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,123 - 
+Processing block (23,18):
+2024-11-02 00:15:29,124 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,126 - 
+Processing block (23,19):
+2024-11-02 00:15:29,126 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,128 - 
+Processing block (23,20):
+2024-11-02 00:15:29,129 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,132 - 
+Processing block (23,21):
+2024-11-02 00:15:29,133 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,135 - 
+Processing block (23,22):
+2024-11-02 00:15:29,135 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,137 - 
+Processing block (23,23):
+2024-11-02 00:15:29,138 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,139 - 
+Processing block (23,24):
+2024-11-02 00:15:29,140 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,142 - 
+Processing block (23,25):
+2024-11-02 00:15:29,142 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,145 - 
+Processing block (23,26):
+2024-11-02 00:15:29,146 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,149 - 
+Processing block (23,27):
+2024-11-02 00:15:29,149 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,152 - 
+Processing block (23,28):
+2024-11-02 00:15:29,152 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,154 - 
+Processing block (23,29):
+2024-11-02 00:15:29,155 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,157 - 
+Processing block (24,0):
+2024-11-02 00:15:29,158 -   Using references: left=Yes, up=No, diagonal=No
+2024-11-02 00:15:29,159 - 
+Processing block (24,1):
+2024-11-02 00:15:29,160 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,161 - 
+Processing block (24,2):
+2024-11-02 00:15:29,162 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,163 - 
+Processing block (24,3):
+2024-11-02 00:15:29,163 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,165 - 
+Processing block (24,4):
+2024-11-02 00:15:29,165 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,167 - 
+Processing block (24,5):
+2024-11-02 00:15:29,167 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,169 - 
+Processing block (24,6):
+2024-11-02 00:15:29,169 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,171 - 
+Processing block (24,7):
+2024-11-02 00:15:29,171 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,173 - 
+Processing block (24,8):
+2024-11-02 00:15:29,173 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,174 - 
+Processing block (24,9):
+2024-11-02 00:15:29,175 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,176 - 
+Processing block (24,10):
+2024-11-02 00:15:29,177 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,178 - 
+Processing block (24,11):
+2024-11-02 00:15:29,178 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,180 - 
+Processing block (24,12):
+2024-11-02 00:15:29,180 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,182 - 
+Processing block (24,13):
+2024-11-02 00:15:29,182 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,184 - 
+Processing block (24,14):
+2024-11-02 00:15:29,184 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,186 - 
+Processing block (24,15):
+2024-11-02 00:15:29,186 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,187 - 
+Processing block (24,16):
+2024-11-02 00:15:29,188 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,189 - 
+Processing block (24,17):
+2024-11-02 00:15:29,190 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,191 - 
+Processing block (24,18):
+2024-11-02 00:15:29,192 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,193 - 
+Processing block (24,19):
+2024-11-02 00:15:29,193 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,195 - 
+Processing block (24,20):
+2024-11-02 00:15:29,195 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,197 - 
+Processing block (24,21):
+2024-11-02 00:15:29,197 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,199 - 
+Processing block (24,22):
+2024-11-02 00:15:29,199 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,201 - 
+Processing block (24,23):
+2024-11-02 00:15:29,201 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,203 - 
+Processing block (24,24):
+2024-11-02 00:15:29,203 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,205 - 
+Processing block (24,25):
+2024-11-02 00:15:29,205 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,207 - 
+Processing block (24,26):
+2024-11-02 00:15:29,207 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,209 - 
+Processing block (24,27):
+2024-11-02 00:15:29,210 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,212 - 
+Processing block (24,28):
+2024-11-02 00:15:29,212 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,215 - 
+Processing block (24,29):
+2024-11-02 00:15:29,215 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,217 - 
+Processing block (25,0):
+2024-11-02 00:15:29,217 -   Using references: left=Yes, up=No, diagonal=No
+2024-11-02 00:15:29,219 - 
+Processing block (25,1):
+2024-11-02 00:15:29,220 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,221 - 
+Processing block (25,2):
+2024-11-02 00:15:29,222 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,223 - 
+Processing block (25,3):
+2024-11-02 00:15:29,224 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,226 - 
+Processing block (25,4):
+2024-11-02 00:15:29,226 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,228 - 
+Processing block (25,5):
+2024-11-02 00:15:29,228 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,230 - 
+Processing block (25,6):
+2024-11-02 00:15:29,230 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,233 - 
+Processing block (25,7):
+2024-11-02 00:15:29,233 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,235 - 
+Processing block (25,8):
+2024-11-02 00:15:29,235 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,239 - 
+Processing block (25,9):
+2024-11-02 00:15:29,239 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,241 - 
+Processing block (25,10):
+2024-11-02 00:15:29,242 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,244 - 
+Processing block (25,11):
+2024-11-02 00:15:29,244 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,246 - 
+Processing block (25,12):
+2024-11-02 00:15:29,246 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,248 - 
+Processing block (25,13):
+2024-11-02 00:15:29,248 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,250 - 
+Processing block (25,14):
+2024-11-02 00:15:29,250 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,252 - 
+Processing block (25,15):
+2024-11-02 00:15:29,253 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,254 - 
+Processing block (25,16):
+2024-11-02 00:15:29,255 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,256 - 
+Processing block (25,17):
+2024-11-02 00:15:29,257 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,259 - 
+Processing block (25,18):
+2024-11-02 00:15:29,259 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,261 - 
+Processing block (25,19):
+2024-11-02 00:15:29,261 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,263 - 
+Processing block (25,20):
+2024-11-02 00:15:29,263 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,265 - 
+Processing block (25,21):
+2024-11-02 00:15:29,265 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,267 - 
+Processing block (25,22):
+2024-11-02 00:15:29,267 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,269 - 
+Processing block (25,23):
+2024-11-02 00:15:29,269 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,271 - 
+Processing block (25,24):
+2024-11-02 00:15:29,271 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,273 - 
+Processing block (25,25):
+2024-11-02 00:15:29,273 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,275 - 
+Processing block (25,26):
+2024-11-02 00:15:29,275 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,276 - 
+Processing block (25,27):
+2024-11-02 00:15:29,277 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,278 - 
+Processing block (25,28):
+2024-11-02 00:15:29,279 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,280 - 
+Processing block (25,29):
+2024-11-02 00:15:29,280 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,282 - 
+Processing block (26,0):
+2024-11-02 00:15:29,283 -   Using references: left=Yes, up=No, diagonal=No
+2024-11-02 00:15:29,285 - 
+Processing block (26,1):
+2024-11-02 00:15:29,285 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,287 - 
+Processing block (26,2):
+2024-11-02 00:15:29,287 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,288 - 
+Processing block (26,3):
+2024-11-02 00:15:29,289 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,291 - 
+Processing block (26,4):
+2024-11-02 00:15:29,291 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,293 - 
+Processing block (26,5):
+2024-11-02 00:15:29,293 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,295 - 
+Processing block (26,6):
+2024-11-02 00:15:29,295 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,297 - 
+Processing block (26,7):
+2024-11-02 00:15:29,298 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,300 - 
+Processing block (26,8):
+2024-11-02 00:15:29,300 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,302 - 
+Processing block (26,9):
+2024-11-02 00:15:29,302 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,304 - 
+Processing block (26,10):
+2024-11-02 00:15:29,304 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,305 - 
+Processing block (26,11):
+2024-11-02 00:15:29,306 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,308 - 
+Processing block (26,12):
+2024-11-02 00:15:29,308 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,309 - 
+Processing block (26,13):
+2024-11-02 00:15:29,310 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,311 - 
+Processing block (26,14):
+2024-11-02 00:15:29,312 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,314 - 
+Processing block (26,15):
+2024-11-02 00:15:29,314 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,316 - 
+Processing block (26,16):
+2024-11-02 00:15:29,316 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,317 - 
+Processing block (26,17):
+2024-11-02 00:15:29,318 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,319 - 
+Processing block (26,18):
+2024-11-02 00:15:29,320 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,321 - 
+Processing block (26,19):
+2024-11-02 00:15:29,322 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,323 - 
+Processing block (26,20):
+2024-11-02 00:15:29,324 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,325 - 
+Processing block (26,21):
+2024-11-02 00:15:29,326 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,327 - 
+Processing block (26,22):
+2024-11-02 00:15:29,328 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,329 - 
+Processing block (26,23):
+2024-11-02 00:15:29,329 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,331 - 
+Processing block (26,24):
+2024-11-02 00:15:29,331 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,333 - 
+Processing block (26,25):
+2024-11-02 00:15:29,333 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,335 - 
+Processing block (26,26):
+2024-11-02 00:15:29,335 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,337 - 
+Processing block (26,27):
+2024-11-02 00:15:29,337 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,339 - 
+Processing block (26,28):
+2024-11-02 00:15:29,339 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,341 - 
+Processing block (26,29):
+2024-11-02 00:15:29,341 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,343 - 
+Processing block (27,0):
+2024-11-02 00:15:29,343 -   Using references: left=Yes, up=No, diagonal=No
+2024-11-02 00:15:29,345 - 
+Processing block (27,1):
+2024-11-02 00:15:29,345 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,347 - 
+Processing block (27,2):
+2024-11-02 00:15:29,347 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,349 - 
+Processing block (27,3):
+2024-11-02 00:15:29,349 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,351 - 
+Processing block (27,4):
+2024-11-02 00:15:29,351 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,353 - 
+Processing block (27,5):
+2024-11-02 00:15:29,353 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,355 - 
+Processing block (27,6):
+2024-11-02 00:15:29,356 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,357 - 
+Processing block (27,7):
+2024-11-02 00:15:29,358 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,359 - 
+Processing block (27,8):
+2024-11-02 00:15:29,360 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,362 - 
+Processing block (27,9):
+2024-11-02 00:15:29,362 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,364 - 
+Processing block (27,10):
+2024-11-02 00:15:29,365 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,366 - 
+Processing block (27,11):
+2024-11-02 00:15:29,366 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,368 - 
+Processing block (27,12):
+2024-11-02 00:15:29,369 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,371 - 
+Processing block (27,13):
+2024-11-02 00:15:29,371 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,373 - 
+Processing block (27,14):
+2024-11-02 00:15:29,373 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,375 - 
+Processing block (27,15):
+2024-11-02 00:15:29,375 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,377 - 
+Processing block (27,16):
+2024-11-02 00:15:29,377 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,378 - 
+Processing block (27,17):
+2024-11-02 00:15:29,379 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,380 - 
+Processing block (27,18):
+2024-11-02 00:15:29,381 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,382 - 
+Processing block (27,19):
+2024-11-02 00:15:29,383 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,384 - 
+Processing block (27,20):
+2024-11-02 00:15:29,384 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,386 - 
+Processing block (27,21):
+2024-11-02 00:15:29,386 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,388 - 
+Processing block (27,22):
+2024-11-02 00:15:29,388 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,390 - 
+Processing block (27,23):
+2024-11-02 00:15:29,390 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,392 - 
+Processing block (27,24):
+2024-11-02 00:15:29,392 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,393 - 
+Processing block (27,25):
+2024-11-02 00:15:29,394 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,395 - 
+Processing block (27,26):
+2024-11-02 00:15:29,396 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,397 - 
+Processing block (27,27):
+2024-11-02 00:15:29,397 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,399 - 
+Processing block (27,28):
+2024-11-02 00:15:29,399 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,401 - 
+Processing block (27,29):
+2024-11-02 00:15:29,401 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,403 - 
+Processing block (28,0):
+2024-11-02 00:15:29,403 -   Using references: left=Yes, up=No, diagonal=No
+2024-11-02 00:15:29,405 - 
+Processing block (28,1):
+2024-11-02 00:15:29,405 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,407 - 
+Processing block (28,2):
+2024-11-02 00:15:29,407 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,409 - 
+Processing block (28,3):
+2024-11-02 00:15:29,409 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,411 - 
+Processing block (28,4):
+2024-11-02 00:15:29,411 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,413 - 
+Processing block (28,5):
+2024-11-02 00:15:29,413 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,415 - 
+Processing block (28,6):
+2024-11-02 00:15:29,415 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,416 - 
+Processing block (28,7):
+2024-11-02 00:15:29,417 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,418 - 
+Processing block (28,8):
+2024-11-02 00:15:29,418 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,420 - 
+Processing block (28,9):
+2024-11-02 00:15:29,420 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,422 - 
+Processing block (28,10):
+2024-11-02 00:15:29,422 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,424 - 
+Processing block (28,11):
+2024-11-02 00:15:29,424 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,426 - 
+Processing block (28,12):
+2024-11-02 00:15:29,426 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,428 - 
+Processing block (28,13):
+2024-11-02 00:15:29,428 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,430 - 
+Processing block (28,14):
+2024-11-02 00:15:29,430 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,431 - 
+Processing block (28,15):
+2024-11-02 00:15:29,432 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,433 - 
+Processing block (28,16):
+2024-11-02 00:15:29,434 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,435 - 
+Processing block (28,17):
+2024-11-02 00:15:29,436 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,437 - 
+Processing block (28,18):
+2024-11-02 00:15:29,437 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,439 - 
+Processing block (28,19):
+2024-11-02 00:15:29,439 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,441 - 
+Processing block (28,20):
+2024-11-02 00:15:29,441 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,443 - 
+Processing block (28,21):
+2024-11-02 00:15:29,443 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,445 - 
+Processing block (28,22):
+2024-11-02 00:15:29,445 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,447 - 
+Processing block (28,23):
+2024-11-02 00:15:29,447 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,448 - 
+Processing block (28,24):
+2024-11-02 00:15:29,449 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,450 - 
+Processing block (28,25):
+2024-11-02 00:15:29,451 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,452 - 
+Processing block (28,26):
+2024-11-02 00:15:29,453 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,454 - 
+Processing block (28,27):
+2024-11-02 00:15:29,454 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,456 - 
+Processing block (28,28):
+2024-11-02 00:15:29,456 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,458 - 
+Processing block (28,29):
+2024-11-02 00:15:29,458 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,460 - 
+Processing block (29,0):
+2024-11-02 00:15:29,460 -   Using references: left=Yes, up=No, diagonal=No
+2024-11-02 00:15:29,462 - 
+Processing block (29,1):
+2024-11-02 00:15:29,462 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,466 - 
+Processing block (29,2):
+2024-11-02 00:15:29,467 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,469 - 
+Processing block (29,3):
+2024-11-02 00:15:29,469 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,471 - 
+Processing block (29,4):
+2024-11-02 00:15:29,471 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,476 - 
+Processing block (29,5):
+2024-11-02 00:15:29,476 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,478 - 
+Processing block (29,6):
+2024-11-02 00:15:29,478 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,481 - 
+Processing block (29,7):
+2024-11-02 00:15:29,483 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,485 - 
+Processing block (29,8):
+2024-11-02 00:15:29,486 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,487 - 
+Processing block (29,9):
+2024-11-02 00:15:29,487 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,489 - 
+Processing block (29,10):
+2024-11-02 00:15:29,490 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,492 - 
+Processing block (29,11):
+2024-11-02 00:15:29,492 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,494 - 
+Processing block (29,12):
+2024-11-02 00:15:29,495 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,499 - 
+Processing block (29,13):
+2024-11-02 00:15:29,500 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,506 - 
+Processing block (29,14):
+2024-11-02 00:15:29,506 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,512 - 
+Processing block (29,15):
+2024-11-02 00:15:29,513 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,515 - 
+Processing block (29,16):
+2024-11-02 00:15:29,517 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,519 - 
+Processing block (29,17):
+2024-11-02 00:15:29,520 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,522 - 
+Processing block (29,18):
+2024-11-02 00:15:29,523 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,525 - 
+Processing block (29,19):
+2024-11-02 00:15:29,528 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,529 - 
+Processing block (29,20):
+2024-11-02 00:15:29,530 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,533 - 
+Processing block (29,21):
+2024-11-02 00:15:29,535 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,538 - 
+Processing block (29,22):
+2024-11-02 00:15:29,538 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,540 - 
+Processing block (29,23):
+2024-11-02 00:15:29,540 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,546 - 
+Processing block (29,24):
+2024-11-02 00:15:29,546 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,554 - 
+Processing block (29,25):
+2024-11-02 00:15:29,555 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,559 - 
+Processing block (29,26):
+2024-11-02 00:15:29,560 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,562 - 
+Processing block (29,27):
+2024-11-02 00:15:29,563 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,565 - 
+Processing block (29,28):
+2024-11-02 00:15:29,566 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,569 - 
+Processing block (29,29):
+2024-11-02 00:15:29,569 -   Using references: left=Yes, up=Yes, diagonal=Yes
+2024-11-02 00:15:29,572 - 
+Waiting for final result...
+2024-11-02 00:15:50,862 - 
+Final Results:
+Length of LCS is 3000 bsize: 100 time: 23.08

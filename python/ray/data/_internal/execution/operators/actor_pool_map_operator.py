@@ -22,7 +22,7 @@ from ray.data._internal.execution.util import locality_string
 from ray.data._internal.remote_fn import _add_system_error_to_retry_exceptions
 from ray.data.block import Block, BlockMetadata
 from ray.data.context import DataContext
-from ray.types import ObjectRef
+from IncrementalRay.python.ray.types import ObjectRef
 
 logger = logging.getLogger(__name__)
 

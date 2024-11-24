@@ -20,7 +20,7 @@ from ray.data._internal.stats import DatasetStats
 from ray.data._internal.util import make_async_gen
 from ray.data.block import Block, DataBatch
 from ray.data.context import DataContext
-from ray.types import ObjectRef
+from IncrementalRay.python.ray.types import ObjectRef
 
 
 def iter_batches(

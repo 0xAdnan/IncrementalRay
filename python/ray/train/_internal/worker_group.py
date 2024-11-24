@@ -8,7 +8,7 @@ from typing import Callable, Dict, List, Optional, Tuple, Type, TypeVar, Union
 import ray
 from ray.actor import ActorHandle
 from ray.air._internal.util import exception_cause, skip_exceptions
-from ray.types import ObjectRef
+from IncrementalRay.python.ray.types import ObjectRef
 from ray.util.placement_group import PlacementGroup
 
 T = TypeVar("T")

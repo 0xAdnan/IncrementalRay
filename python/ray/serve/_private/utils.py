@@ -27,7 +27,7 @@ from ray.actor import ActorHandle
 from ray.exceptions import RayTaskError
 from ray.serve._private.common import ServeComponentType
 from ray.serve._private.constants import HTTP_PROXY_TIMEOUT, SERVE_LOGGER_NAME
-from ray.types import ObjectRef
+from IncrementalRay.python.ray.types import ObjectRef
 from ray.util.serialization import StandaloneSerializationContext
 
 try:

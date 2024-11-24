@@ -2,7 +2,7 @@ from typing import Iterator, List, Tuple
 
 from ray.data._internal.memory_tracing import trace_allocation
 from ray.data.block import Block, BlockMetadata
-from ray.types import ObjectRef
+from IncrementalRay.python.ray.types import ObjectRef
 
 
 class BlockList:
